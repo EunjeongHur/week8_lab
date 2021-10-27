@@ -1,0 +1,93 @@
+/*
+    #F5F5F5
+    #444480
+    #f6ec9a
+    #04AA6D
+    #28253A
+*/
+
+body{
+    background-color: #D3D3D3;
+}
+
+header{
+    background-color: #28253a; 
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    margin: 10px;
+}
+
+nav{
+    flex-grow: 1;
+}
+
+h1{
+    background-color: ;
+    margin:0px;
+    padding: 20px;
+    text-align:center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h2{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+p{
+    font-family: 'Bree Serif', serif;
+}
+
+
+.nav_ul{
+    display: flex;
+    list-style:none;
+    justify-content: space-around;
+    font-size:13px;
+}
+
+.nav_ul li{
+    border-left: 4px solid #04aa6d;
+}
+
+a{
+    color: #D3D3D3;
+    padding-left: 5px;
+}
+
+
+#wall{
+    max-width: 700px;
+    margin: auto;
+    background-color: #F5F5F5;
+    min-height: 800px;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:visited{
+    color: #D3D3D3;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #04aa6d;
+    text-decoration: underline;
+    font-size: 13.5px;
+}
+
+a:active{
+    color: #f6ec9a;
+    border-color: #D3D3D3;
+    
+}
