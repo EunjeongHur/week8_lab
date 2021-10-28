@@ -1,17 +1,23 @@
 /*
+    #D3D3D3
     #F5F5F5
-    #444480
     #f6ec9a
     #04AA6D
     #28253A
 */
 
+img{
+    width: 80%;
+    grid-template-areas: three;
+    margin: 30px 0px 0px 20px;
+}
+
 body{
-    background-color: #D3D3D3;
+    background-color: #28253a;
 }
 
 header{
-    background-color: #28253a; 
+    background-color: #f5f5f5; 
     position: sticky;
     top: 0px;
     display: flex;
@@ -27,25 +33,44 @@ nav{
 }
 
 h1{
-    background-color: ;
+    border-bottom: 5px double #28253a;
     margin:0px;
     padding: 20px;
     text-align:center;
     font-family: 'Ubuntu', sans-serif;
+    color:#04aa6d;
 }
 
 h2{
     font-family: 'Ubuntu', sans-serif;
+    color: #28253a;
 }
 
 a{
     font-family: 'Ubuntu', sans-serif;
+    color: #f5f5f5;
+    padding-left: 5px;
 }
 
 p{
     font-family: 'Bree Serif', serif;
+    border-left: 5px solid #04aa6d;
+    background-color:#f6ec9a;
+    color: #28253a;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+    padding: 10px;
+    grid-area: one;
 }
 
+.section2{
+    grid-area:two;
+    border-left: 5px solid #f6ec9a;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+    background-color:#04aa6d;
+    padding-left: 10px;
+}
 
 .nav_ul{
     display: flex;
@@ -58,17 +83,33 @@ p{
     border-left: 4px solid #04aa6d;
 }
 
-a{
-    color: #D3D3D3;
-    padding-left: 5px;
+.second_nav li a{
+    color: #28253a;
 }
 
+.index_header{
+    background-color:#28253a;
+}
 
-#wall{
+#container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 230px 1fr;
+    grid-gap: 10px;
+    grid-template-areas: 
+        'one three'
+        'two three';
+}
+
+.wall{
     max-width: 700px;
     margin: auto;
-    background-color: #F5F5F5;
+    background-color: #d3d3d3;
     min-height: 800px;
+}
+
+.index_wall{
+    background-color:#f5f5f5;
 }
 
 a:link{
@@ -76,7 +117,7 @@ a:link{
 }
 
 a:visited{
-    color: #D3D3D3;
+    color: #f5f5f5;
     text-decoration: none;
 }
 
@@ -88,6 +129,24 @@ a:hover{
 
 a:active{
     color: #f6ec9a;
-    border-color: #D3D3D3;
-    
+}
+
+#current_page{
+    border-left-color: #f5f5f5; 
+}
+
+#c_p{
+    color:#F6EC9A;
+}
+
+#about_page{
+    color: #04aa6d;
+}
+
+#a_p{
+    border-left-color: #28253a;
+}
+
+#index_body{
+    background-color: #d3d3d3;
 }

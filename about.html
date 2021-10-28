@@ -9,27 +9,33 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-            <nav>
-                <ul class="nav_ul">
-                    <li><a href="index.html">Home Page</a></li>
-                    <li id="current_page"><a href="about.html">About Me</a></li>
-                    <li><a href="#">Page 3</a></li>
-                    <li><a href="#">Page 4</a></li>
-                    <li><a href="#">Contact Me</a></li>
-                </ul>
-            </nav>
-    </header>
-    <main>
-        <h1 class="after_nav">About Me</h1>
-        <p>Hello, My name is Eunjeong Hur and you can call me Alice. I immigrated to Canada from Korea 3 years ago and I live in Coquitlam currently. After graduating high school, I took 'Introduction Web Development' course as a part-time study for 12 weeks and I learned about HTML, CSS, and a little bit of Javascript.</p>
-        <h2>This is my list of favorite hobbies</h2>
-        <ol>
-            <li>Playing computer games such as League, Minecraft, and Overcooked.</li>
-            <li>Playing the piano</li>
-            <li>Listening to music, usually K-pop</li>
-        </ol>
-        <img src="images/my_photo.jpg" alt= "Eunjeong's photo">
-    </main>
+    <div class="wall">
+        <h1 style="background-color: white;">About Me</h1>
+        <header>
+                <nav>
+                    <ul class="nav_ul second_nav">
+                        <li><a href="index.html">Home Page</a></li>
+                        <li id="a_p"><a href="about.html" id="about_page">About Me</a></li>
+                        <li><a href="#">Page 3</a></li>
+                        <li><a href="#">Page 4</a></li>
+                        <li><a href="#">Contact Me</a></li>
+                    </ul>
+                </nav>
+        </header>
+        <main>
+            <div id="container">
+                <p>Hello, My name is Eunjeong Hur and you can call me Alice. I immigrated to Canada from Korea 3 years ago and I live in Coquitlam currently. After graduating high school, I took 'Introduction Web Development' course as a part-time study for 12 weeks and I learned about HTML, CSS, and a little bit of Javascript.</p>
+                <div class="section2">
+                    <h2>This is my list of favorite hobbies</h2>
+                    <ol>
+                        <li>Playing computer games such as League, Minecraft, and Overcooked.</li>
+                        <li>Playing the piano</li>
+                        <li>Listening to music, usually K-pop</li>
+                    </ol>
+                </div>
+                <img src="images/my_photo.jpg" alt= "Eunjeong's photo">
+            </div>
+        </main>
+    </div>
 </body>
 </html>
